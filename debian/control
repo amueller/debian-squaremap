@@ -3,9 +3,9 @@ Section: python
 Priority: optional
 Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
 DM-Upload-Allowed: yes
-Build-Depends: debhelper (>= 8.0.0~),
- python-all,
- python-setuptools (>= 0.6.14),
+Build-Depends: debhelper (>= 8.0.0~)
+ , python-all
+ , python-setuptools (>= 0.6.14)
 Standards-Version: 3.9.2
 X-Python-Version: >= 2.5
 Homepage: https://launchpad.net/squaremap
@@ -15,7 +15,7 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/squaremap.git;a=summary
 Package: python-squaremap
 Architecture: all
 Depends: python-wxversion
- , ${shlibs:Depends}
+ , ${python:Depends}
  , ${misc:Depends}
  , python-wxgtk2.8
 Description: wxPython control to display hierarchic data as nested squares
