@@ -1,5 +1,5 @@
-squaremap (1.0.1b3-1) unstable; urgency=low
+squaremap (1.0.1b3-1) UNRELEASED; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #nnnn)
 
  -- Federico Ceratto <federico.ceratto@gmail.com>  Sun, 09 Oct 2011 12:11:21 +0000
