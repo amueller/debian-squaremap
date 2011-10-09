@@ -1,0 +1,21 @@
+Source: squaremap
+Section: python
+Priority: optional
+Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8.0.0~),
+ python-all-dev,
+ python-setuptools (>= 0.6.14),
+Standards-Version: 3.9.2
+X-Python-Version: >= 2.5
+Homepage: https://launchpad.net/squaremap
+Vcs-Git: git://git.debian.org/collab-maint/squaremap.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/squaremap.git;a=summary
+
+Package: python-squaremap
+Architecture: all
+Depends: python-wxversion, ${shlibs:Depends}, ${misc:Depends}
+Description: wxPython control to display hierarchic data as nested squares
+ A simple wxPython control to display hierarchic data as a recursive set of
+ nested squares, each of which represents the relative size of a given child
+ within its parent.
