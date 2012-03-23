@@ -1,3 +1,2 @@
 version=3
-
-http://pypi.python.org/pypi/SquareMap http://pypi\.python\.org/packages/source/S/SquareMap/SquareMap-(.*)\.tar\.gz#md5=.*
+opts="uversionmangle=s/b/~b/" http://pypi.python.org/packages/source/S/SquareMap/SquareMap-(.*)\.tar\.gz
