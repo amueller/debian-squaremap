@@ -120,6 +120,7 @@ class SquareMap( wx.Panel ):
         self.highlight = highlight
         self.selectedNode = None
         self.highlightedNode = None
+        self._buffer = wx.EmptyBitmap(20, 20) # Have a default buffer ready
         self.Bind( wx.EVT_PAINT, self.OnPaint)
         self.Bind( wx.EVT_SIZE, self.OnSize )
         if highlight:
@@ -214,6 +215,8 @@ class SquareMap( wx.Panel ):
         # The buffer is initialized in here, so that the buffer is always
         # the same size as the Window.
         width, height = self.GetClientSizeTuple()
+        if width <= 0 or height <=0:
+            return
         # Make new off-screen bitmap: this bitmap will always have the
         # current drawing in it, so it can be used to save the image to
         # a file, or whatever.
