@@ -1,2 +1,2 @@
 version=3
-opts="uversionmangle=s/b/~b/" http://pypi.python.org/packages/source/S/SquareMap/SquareMap-(.*)\.tar\.gz
+opts="uversionmangle=s/b(\d*)/~b$1/" http://pypi.python.org/packages/source/S/SquareMap/SquareMap-(.*)\.tar\.gz
