@@ -1,8 +1,8 @@
-squaremap (1.0.1~b3-1) UNRELEASED; urgency=low
+squaremap (1:1.0.1-1) UNRELEASED; urgency=low
 
-  * Temporary changelog entry to allow uscan to run
+  * New upstream release (Closes: #664662)
 
- -- Federico Ceratto <federico.ceratto@gmail.com>  Sat, 24 Mar 2012 10:18:02 +0000
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Tue, 27 Mar 2012 22:43:39 +0100
 
 squaremap (1.0.1b3-1) unstable; urgency=low
 
