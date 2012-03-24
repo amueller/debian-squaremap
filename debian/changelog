@@ -1,4 +1,10 @@
-squaremap (1.0.1b3-1) UNRELEASED; urgency=low
+squaremap (1.0.1~b3-1) UNRELEASED; urgency=low
+
+  * Temporary changelog entry to allow uscan to run
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Sat, 24 Mar 2012 10:18:02 +0000
+
+squaremap (1.0.1b3-1) unstable; urgency=low
 
   * Initial release (Closes: #644852)
 
