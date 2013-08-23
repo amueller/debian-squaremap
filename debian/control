@@ -2,7 +2,6 @@ Source: squaremap
 Section: python
 Priority: optional
 Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
-DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 9~)
  , python-all (>= 2.6.6-3~)
  , python-setuptools (>= 0.6.14)
