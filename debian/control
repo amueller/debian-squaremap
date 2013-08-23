@@ -13,6 +13,7 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/squaremap.git;a=summary
 
 Package: python-squaremap
 Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: python-wxversion
  , ${python:Depends}
  , ${misc:Depends}
