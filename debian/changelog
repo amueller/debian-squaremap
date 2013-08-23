@@ -1,8 +1,10 @@
-squaremap (1:1.0.2-1) UNRELEASED; urgency=low
+squaremap (1:1.0.2-1) unstable; urgency=low
 
   * New upstream release
+  * Moved to debhelper 9
+  * Standards-Version bumped to 3.9.4
 
- -- Federico Ceratto <federico.ceratto@gmail.com>  Fri, 23 Aug 2013 22:04:33 +0100
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Fri, 23 Aug 2013 22:39:37 +0100
 
 squaremap (1:1.0.1-1) unstable; urgency=low
 
