@@ -18,6 +18,7 @@ Depends: python-wxversion
  , ${python:Depends}
  , ${misc:Depends}
  , python-wxgtk2.8
+Provides: ${python:Provides}
 Description: wxPython control to display hierarchic data as nested squares
  A simple wxPython control to display hierarchic data as a recursive set of
  nested squares, each of which represents the relative size of a given child
