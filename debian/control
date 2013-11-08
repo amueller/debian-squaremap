@@ -8,8 +8,8 @@ Build-Depends: debhelper (>= 9~)
 Standards-Version: 3.9.4
 X-Python-Version: >= 2.5
 Homepage: https://launchpad.net/squaremap
-Vcs-Git: git://git.debian.org/git/collab-maint/squaremap.git
-Vcs-Browser: http://git.debian.org/?p=collab-maint/squaremap.git;a=summary
+Vcs-Git: git://anonscm.debian.org/collab-maint/squaremap.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/squaremap.git;a=summary
 
 Package: python-squaremap
 Architecture: all
