@@ -1,8 +1,8 @@
-squaremap (1:1.0.4-1) UNRELEASED; urgency=medium
+squaremap (1:1.0.4-1) unstable; urgency=low
 
   * New upstream release
 
- -- Federico Ceratto <federico.ceratto@gmail.com>  Mon, 07 Jul 2014 00:12:05 +0100
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Mon, 07 Jul 2014 00:16:32 +0100
 
 squaremap (1:1.0.3-1) unstable; urgency=low
 
