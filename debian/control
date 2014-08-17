@@ -14,10 +14,9 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/squaremap.git;a=su
 Package: python-squaremap
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: python-wxversion
+Depends: python-wxgtk3.0
  , ${python:Depends}
  , ${misc:Depends}
- , python-wxgtk2.8
 Provides: ${python:Provides}
 Description: wxPython control to display hierarchic data as nested squares
  A simple wxPython control to display hierarchic data as a recursive set of

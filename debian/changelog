@@ -1,3 +1,10 @@
+squaremap (1:1.0.4-2) unstable; urgency=low
+
+  * Update to use wxPython 3.0 (Closes: #758436) thanks to Olly Betts
+    + New patch: wxpy3.0-compat.patch
+
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Sun, 17 Aug 2014 21:03:01 +0100
+
 squaremap (1:1.0.4-1) unstable; urgency=low
 
   * New upstream release

@@ -1,0 +1,17 @@
+Description: Fix deprecation warning
+ Patch maintains compatibility with wxPython 2.8 (wx.InitAllImageHandlers()
+ is a no-op there)
+Author: Olly Betts <olly@survex.com>
+Forwarded: no
+Last-Update: 2014-08-17
+
+--- a/squaremap/squaremap.py
++++ b/squaremap/squaremap.py
+@@ -486,7 +486,6 @@
+     """Basic application for holding the viewing Frame"""
+     def OnInit(self):
+         """Initialise the application"""
+-        wx.InitAllImageHandlers()
+         self.frame = frame = wx.Frame( None,
+         )
+         frame.CreateStatusBar()
